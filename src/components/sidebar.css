@@ -37,3 +37,42 @@
   align-items: center;
   gap: 12px;
 }
+/* Mobile Responsive */
+@media (max-width: 600px) {
+
+  .sidebar {
+    width: 70px;
+    padding: 15px 8px;
+  }
+
+  .sidebar h2 {
+    font-size: 0;
+    margin-bottom: 25px;
+  }
+
+  .sidebar h2::after {
+    content: "AD";
+    font-size: 18px;
+  }
+
+  .sidebar li {
+    justify-content: center;
+    padding: 12px 5px;
+  }
+
+  .sidebar a {
+    justify-content: center;
+  }
+
+  .sidebar a span {
+    display: none;
+  }
+
+  .sidebar li {
+    gap: 0;
+  }
+
+  .sidebar a {
+    gap: 0;
+  }
+}

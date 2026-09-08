@@ -42,3 +42,22 @@
 .settings-card button:hover {
   background-color: #334155;
 }
+
+@media (max-width: 600px){
+  .settings-page{
+    padding: 20px 15px;
+  }
+  .settings-page h1{
+    font-size: 25px;
+  }
+  .settings-card{
+    padding: 20px;
+    margin-bottom: 18px;
+  }
+  .settings-card h2{
+    font-size: 19px;
+  }
+  .settings-card button {
+    width:100%
+  }
+}

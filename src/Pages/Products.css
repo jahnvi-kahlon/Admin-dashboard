@@ -66,3 +66,48 @@
   background-color: #1e293b;
   color: white;
 }
+/* Mobile Responsive */
+@media (max-width: 600px) {
+
+  .product-page {
+    padding: 20px 12px;
+    overflow-x: auto;
+  }
+
+  .product-page h1 {
+    font-size: 24px;
+  }
+
+  .product-page > button {
+    width: 100%;
+  }
+
+  .product-page > div {
+    width: 100%;
+    max-width: 100%;
+    padding: 18px;
+  }
+
+  .product-page h2 {
+    font-size: 20px;
+  }
+
+  .product-page input {
+    padding: 11px;
+  }
+
+  .product-page div button {
+    width: 100%;
+  }
+
+  .product-page table {
+    min-width: 600px;
+  }
+
+  .product-page th,
+  .product-page td {
+    padding: 10px;
+    font-size: 14px;
+    white-space: nowrap;
+  }
+}

@@ -73,3 +73,20 @@
   margin-right: 8px;
   cursor: pointer;
 }
+
+@media (max-widht:600px){
+  .orders-page{
+    padding: 20px 12px;
+  }
+  .orders-page h1{
+    font-size: 25px;
+  }
+  .order-form{
+    padding:20px;
+  }
+  .orders-page th,
+  .orders-page td{
+    padding: 11px;
+    font-size: 14px;
+  }
+}

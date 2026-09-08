@@ -27,3 +27,24 @@
   border: 1px solid #ccc;
   text-align: left;
 }
+@media (max-width: 600px){
+  .users-page{
+    padding:20px 12px;
+  }
+  .users-page h1{
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  .users-page > button{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .users-page table{
+    min-width: 600px;
+  }
+  .users-page th,
+  .users-page td{
+    padding: 10px;
+    font-size: 14px;
+  }
+}
