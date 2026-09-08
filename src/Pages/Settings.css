@@ -1,0 +1,44 @@
+.settings-page {
+  padding: 30px;
+  background-color: bisque;
+  min-height: 100vh;
+}
+
+.settings-page h1 {
+  margin-bottom: 25px;
+}
+
+.settings-card {
+  width: 500px;
+  background-color: #f1f5f9;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.settings-card h2 {
+  margin-bottom: 15px;
+}
+
+.settings-card input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.settings-card button {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 5px;
+  background-color: #1e293b;
+  color: white;
+  cursor: pointer;
+}
+
+.settings-card button:hover {
+  background-color: #334155;
+}

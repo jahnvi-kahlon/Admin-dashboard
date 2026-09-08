@@ -1,0 +1,75 @@
+.orders-page {
+  padding: 30px;
+  background-color: bisque;
+  min-height: 100vh;
+}
+
+.orders-page h1 {
+  margin-bottom: 20px;
+}
+
+.orders-page > button {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 6px;
+  background-color: #1e293b;
+  color: white;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.order-form {
+  max-width: 500px;
+  padding: 20px;
+  margin-bottom: 25px;
+  background-color: #f1f5f9;
+  border-radius: 10px;
+}
+
+.order-form h2 {
+  margin-bottom: 15px;
+}
+
+.order-form input,
+.order-form select {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.order-form button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #1e293b;
+  color: white;
+  cursor: pointer;
+}
+
+.orders-page table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.orders-page th,
+.orders-page td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.orders-page th {
+  background-color: #1e293b;
+  color: white;
+}
+
+.orders-page td button {
+  padding: 7px 12px;
+  margin-right: 8px;
+  cursor: pointer;
+}
