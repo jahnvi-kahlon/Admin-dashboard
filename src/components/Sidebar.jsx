@@ -1,4 +1,4 @@
-import "./Sidebar.css";
+import "./sidebar.css";
 import {FaChartBar, FaUsers,FaBox,FaShoppingCart,FaCog} from "react-icons/fa";
 import {Link} from "react-router-dom"
 
