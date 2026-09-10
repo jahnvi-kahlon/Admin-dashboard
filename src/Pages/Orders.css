@@ -74,19 +74,54 @@
   cursor: pointer;
 }
 
-@media (max-widht:600px){
-  .orders-page{
+@media (max-width: 600px) {
+  .orders-page {
     padding: 20px 12px;
+    overflow-x: hidden;
   }
-  .orders-page h1{
+
+  .orders-page h1 {
     font-size: 25px;
   }
-  .order-form{
-    padding:20px;
+
+  .orders-page > button {
+    width: 100%;
   }
+
+  .order-form {
+    width: 100%;
+    max-width: 100%;
+    padding: 18px;
+    box-sizing: border-box;
+  }
+
+  .order-form input,
+  .order-form select {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .order-form button {
+    width: 100%;
+  }
+
+  .orders-page table {
+    width: 100%;
+    min-width: 0;
+    table-layout: fixed;
+  }
+
   .orders-page th,
-  .orders-page td{
-    padding: 11px;
-    font-size: 14px;
+  .orders-page td {
+    padding: 8px 5px;
+    font-size: 12px;
+    white-space: normal;
+    word-break: break-word;
+  }
+
+  .orders-page td button {
+    padding: 5px 6px;
+    margin-right: 2px;
+    font-size: 11px;
   }
 }

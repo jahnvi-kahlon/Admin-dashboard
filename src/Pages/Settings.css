@@ -43,21 +43,36 @@
   background-color: #334155;
 }
 
-@media (max-width: 600px){
-  .settings-page{
+@media (max-width: 600px) {
+
+  .settings-page {
     padding: 20px 15px;
+    width: 100%;
+    box-sizing: border-box;
+    overflow-x: hidden;
   }
-  .settings-page h1{
+
+  .settings-page h1 {
     font-size: 25px;
   }
-  .settings-card{
-    padding: 20px;
+
+  .settings-card {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 18px;
     margin-bottom: 18px;
   }
-  .settings-card h2{
-    font-size: 19px;
+
+  .settings-card h2 {
+    font-size: 20px;
   }
+
+  .settings-card input {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
   .settings-card button {
-    width:100%
+    width: 100%;
   }
 }

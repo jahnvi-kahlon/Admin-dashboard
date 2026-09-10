@@ -52,6 +52,7 @@
 
   .sidebar h2::after {
     content: "AD";
+    
     font-size: 18px;
   }
 

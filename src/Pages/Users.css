@@ -27,24 +27,29 @@
   border: 1px solid #ccc;
   text-align: left;
 }
-@media (max-width: 600px){
-  .users-page{
-    padding:20px 12px;
+@media (max-width: 600px) {
+  .dashboard-content {
+    padding: 20px 15px;
   }
-  .users-page h1{
+
+  .dashboard-content h1 {
     font-size: 24px;
-    margin-bottom: 15px;
-  }
-  .users-page > button{
-    width: 100%;
     margin-bottom: 20px;
   }
-  .users-page table{
-    min-width: 600px;
+
+  .cards {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
   }
-  .users-page th,
-  .users-page td{
-    padding: 10px;
-    font-size: 14px;
+
+  .card {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+  }
+
+  .card p {
+    font-size: 28px;
   }
 }
