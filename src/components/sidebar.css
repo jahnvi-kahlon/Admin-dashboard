@@ -41,39 +41,31 @@
 @media (max-width: 600px) {
 
   .sidebar {
-    width: 70px;
+    width: 135px;
+    min-height: 100vh;
     padding: 15px 8px;
   }
 
   .sidebar h2 {
-    font-size: 0;
-    margin-bottom: 25px;
-  }
-
-  .sidebar h2::after {
-    content: "AD";
-    
     font-size: 18px;
+    margin-bottom: 25px;
+    white-space: nowrap;
   }
 
   .sidebar li {
-    justify-content: center;
-    padding: 12px 5px;
+    padding: 10px 5px;
+    margin-bottom: 8px;
+    gap: 6px;
   }
 
   .sidebar a {
-    justify-content: center;
+    gap: 6px;
+    font-size: 14px;
+    white-space: nowrap;
   }
 
   .sidebar a span {
-    display: none;
-  }
-
-  .sidebar li {
-    gap: 0;
-  }
-
-  .sidebar a {
-    gap: 0;
+    display: inline;
   }
 }
+  
